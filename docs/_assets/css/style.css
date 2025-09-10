@@ -210,6 +210,11 @@ code {
   margin: 0 auto 8em;
 }
 
+.submit-page > main a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 .submit-page main > header::before {
   left: unset;
 }
