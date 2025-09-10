@@ -218,6 +218,10 @@ code {
   margin: 1em 0;
 }
 
+.submit-page main > ol img {
+  width: 100%;
+}
+
 /* Styles For footer.html */
 footer {
   box-sizing: border-box;
