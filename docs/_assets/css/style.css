@@ -227,6 +227,11 @@ code {
   width: 100%;
 }
 
+.submit-page main > ol code {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 /* Styles For footer.html */
 footer {
   box-sizing: border-box;
