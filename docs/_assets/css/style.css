@@ -210,12 +210,26 @@ code {
   margin: 0 auto 8em;
 }
 
+.submit-page > main a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 .submit-page main > header::before {
   left: unset;
 }
 
 .submit-page main > ol li {
   margin: 1em 0;
+}
+
+.submit-page main > ol img {
+  width: 100%;
+}
+
+.submit-page main > ol code {
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 /* Styles For footer.html */
